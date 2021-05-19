@@ -1,0 +1,50 @@
+[
+  {
+    "hospitalName": "DCH SHKM GMC Nalhar",
+    "hospitalAddress": "",
+    "normalBedTotal": "",
+    "normalBedOccupied": "",
+    "normalBedAvailable": "82",
+    "oxygenBedTotal": "",
+    "oxygenBedOccupied": "165",
+    "oxygenBedAvailable": "82",
+    "lastUpdatedDate": "9th May,21",
+    "lastUpdatedTime": "11:10 AM",
+    "district": "Nuh",
+    "state": "Haryana",
+    "googleSearch": "https://www.google.com/search?q=DCH+SHKM GMC Nalhar+Haryana&rlz=1C1CHBF_enIN859IN859&oq=DCH+SHKM GMC Nalhar+Haryana&aqs=chrome..69i57j46i10i175i199j0i10l7.11711j0j15&sourceid=chrome&ie=UTF-8",
+    "phoneNo": "012672820073000"
+  },
+  {
+    "hospitalName": "DCHC Al-Aafia Civil Hospital Mandikhera",
+    "hospitalAddress": "",
+    "normalBedTotal": "",
+    "normalBedOccupied": "",
+    "normalBedAvailable": "13",
+    "oxygenBedTotal": "",
+    "oxygenBedOccupied": "32",
+    "oxygenBedAvailable": "13",
+    "lastUpdatedDate": "9th May,21",
+    "lastUpdatedTime": "11:10 AM",
+    "district": "Nuh",
+    "state": "Haryana",
+    "googleSearch": "https://www.google.com/search?q=DCHC+Al-Aafia Civil Hospital Mandikhera+Haryana&rlz=1C1CHBF_enIN859IN859&oq=DCHC+Al-Aafia Civil Hospital Mandikhera+Haryana&aqs=chrome..69i57j46i10i175i199j0i10l7.11711j0j15&sourceid=chrome&ie=UTF-8",
+    "phoneNo": "7206512772"
+  },
+  {
+    "hospitalName": "DCHC Tauru",
+    "hospitalAddress": "",
+    "normalBedTotal": "",
+    "normalBedOccupied": "",
+    "normalBedAvailable": "35",
+    "oxygenBedTotal": "",
+    "oxygenBedOccupied": "12",
+    "oxygenBedAvailable": "12",
+    "lastUpdatedDate": "8th May,21",
+    "lastUpdatedTime": "6:36 PM",
+    "district": "Nuh",
+    "state": "Haryana",
+    "googleSearch": "https://www.google.com/search?q=DCHC+Tauru+Haryana&rlz=1C1CHBF_enIN859IN859&oq=DCHC+Tauru+Haryana&aqs=chrome..69i57j46i10i175i199j0i10l7.11711j0j15&sourceid=chrome&ie=UTF-8",
+    "phoneNo": ""
+  }
+]

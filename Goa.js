@@ -1,16 +1,13 @@
 const axios = require('axios')
 const cheerio = require('cheerio')
+const fs = require('fs')
 
 axios.get('https://goaonline.gov.in/beds')
     .then(res => {
         const $ = cheerio.load(res.data)
         var name=[]
-        var district=[]
-        var phone =[]
         var totalbed = []
         var vacantbed = []
-        var o2bed = []
-        var vacant02bed = []
         var lastupdate = []
         var date = []
         var time = []
@@ -86,11 +83,22 @@ axios.get('https://goaonline.gov.in/beds')
                 }
             })
 
-            console.log(Goa)
+        
+          
         })
-      
 
-      
+        console.log(Goa)
+
+        fs.writeFile(
+            `./jsonFiles/Goa.json`,
+            JSON.stringify(Goa, null, 2),
+            (error) => {
+              if (error) {
+                console.log(error);
+              } else console.log(`File written Goa`);
+            }
+          )
+          
       
     })
 

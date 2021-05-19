@@ -1,6 +1,7 @@
 const axios = require('axios')
 const cheerio = require('cheerio')
 const { data } = require('cheerio/lib/api/attributes')
+const fs = require('fs')
 
 axios.get('https://bbmpgov.com/chbms/')
     .then(res => {
@@ -74,10 +75,19 @@ axios.get('https://bbmpgov.com/chbms/')
             oxygenBedAvailable:'',
             lastUpdatedDate:'',
             lastUpdatedTime:'',
-            district:''
+            district:'',
+            state:'Karnataka',
+            googleSearch:''
         }
 
         obj.hospitalName=data
+        var replacedString = data.replace(" ","+") 
+        var finalRepString = replacedString + '+ kartnataka'  
+        var gStringpt1 = 'https://www.google.com/search?q='
+        var gStringpt3='&rlz=1C1CHBF_enIN859IN859&oq='
+        var gStringpt5='&aqs=chrome..69i57j46i10i175i199j0i10l7.11711j0j15&sourceid=chrome&ie=UTF-8' 
+        var finalString = gStringpt1 + finalRepString + gStringpt3 + finalRepString + gStringpt5
+        obj.googleSearch=finalString
         Karnataka.push(obj)
 
     })
@@ -101,12 +111,16 @@ Karnataka.map((data,i) => {
         }
     })
 })
-
-console.log(Karnataka)
-        
-           
-   
-      
+      console.log(Karnataka)
+      fs.writeFile(
+        `./jsonFiles/Karnataka.json`,
+        JSON.stringify(Karnataka, null, 2),
+        (error) => {
+          if (error) {
+            console.log(error);
+          } else console.log(`File written Karnataka`);
+        }
+      );
       
     })
 

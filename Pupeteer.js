@@ -2,9 +2,13 @@ const puppeteer = require('puppeteer');
 
 // starting Puppeteer
 var grabPosts
+var array =[]
+
+
 const googleData = async (url) => {
+    var dt
     
-   const as = await puppeteer.launch()
+    puppeteer.launch()
     .then(async browser => {
         obj1='jgv'
 
@@ -47,10 +51,11 @@ const googleData = async (url) => {
             "hours":hours,
         
         };
-      
+      array.push(items)
         return items;
     });
-
+    array.push(grabPosts)
+    dt = grabPosts
     console.log("hvb" ,grabPosts,);
     // outputting the scraped data
   
@@ -58,19 +63,26 @@ const googleData = async (url) => {
     await browser.close();
 
     //return data 
-    return grabPosts
-
-})
-
-.catch(function (err) {
-    console.error(err);
-});
 
 
+    })
+
+    .catch(function (err) {
+        console.error(err);
+    });
 
 
+
+return dt
 
 }
 
+const main = async () => {
+    var d = googleData('https://www.google.com/search?q=Terna+Hospital+Nerul&rlz=1C1CHBF_enIN859IN859&oq=Terna+Hospital+Nerul&aqs=chrome..69i57j46i10i175i199j0i10l7.11711j0j15&sourceid=chrome&ie=UTF-8')
+    console.log("d",d)
+    console.log('ary',array)
+}
 
-exports.google = googleData
+main()
+
+exports.google = main

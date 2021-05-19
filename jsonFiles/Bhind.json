@@ -1,0 +1,62 @@
+[
+  {
+    "hospitalName": "DH Bhind - DCHC",
+    "hospitalAddress": "",
+    "normalBedTotal": "229 ",
+    "normalBedOccupied": "",
+    "normalBedAvailable": "100",
+    "oxygenBedTotal": "",
+    "oxygenBedOccupied": "",
+    "oxygenBedAvailable": "93",
+    "lastUpdatedDate": "19-05-2021",
+    "lastUpdatedTime": "08:23:38",
+    "district": "",
+    "state": "Madhyapradesh",
+    "googleSearch": "https://www.google.com/search?q=DH+Bhind - DCHC+Madhya+Pradesh&rlz=1C1CHBF_enIN859IN859&oq=DH+Bhind - DCHC+Madhya+Pradesh&aqs=chrome..69i57j46i10i175i199j0i10l7.11711j0j15&sourceid=chrome&ie=UTF-8"
+  },
+  {
+    "hospitalName": "GOV NO. 1 GIRLS HOSTEL",
+    "hospitalAddress": "",
+    "normalBedTotal": "100 ",
+    "normalBedOccupied": "",
+    "normalBedAvailable": "100",
+    "oxygenBedTotal": "",
+    "oxygenBedOccupied": "",
+    "oxygenBedAvailable": "0",
+    "lastUpdatedDate": "19-05-2021",
+    "lastUpdatedTime": "08:24:29",
+    "district": "",
+    "state": "Madhyapradesh",
+    "googleSearch": "https://www.google.com/search?q=GOV+NO. 1 GIRLS HOSTEL+Madhya+Pradesh&rlz=1C1CHBF_enIN859IN859&oq=GOV+NO. 1 GIRLS HOSTEL+Madhya+Pradesh&aqs=chrome..69i57j46i10i175i199j0i10l7.11711j0j15&sourceid=chrome&ie=UTF-8"
+  },
+  {
+    "hospitalName": "DIVYANG PUNARVASH KENDR NIRASHRIT BHAWAN",
+    "hospitalAddress": "",
+    "normalBedTotal": "60 ",
+    "normalBedOccupied": "",
+    "normalBedAvailable": "44",
+    "oxygenBedTotal": "",
+    "oxygenBedOccupied": "",
+    "oxygenBedAvailable": "0",
+    "lastUpdatedDate": "19-05-2021",
+    "lastUpdatedTime": "08:24:08",
+    "district": "",
+    "state": "Madhyapradesh",
+    "googleSearch": "https://www.google.com/search?q=DIVYANG+PUNARVASH KENDR NIRASHRIT BHAWAN+Madhya+Pradesh&rlz=1C1CHBF_enIN859IN859&oq=DIVYANG+PUNARVASH KENDR NIRASHRIT BHAWAN+Madhya+Pradesh&aqs=chrome..69i57j46i10i175i199j0i10l7.11711j0j15&sourceid=chrome&ie=UTF-8"
+  },
+  {
+    "hospitalName": "",
+    "hospitalAddress": "",
+    "normalBedTotal": "Rows Limit: \n20\n50\n100\n150\n200\n\t",
+    "normalBedOccupied": "",
+    "normalBedAvailable": "ows Limit: \n20\n50\n100\n150\n200\n\tshowing 1 to 3 of total 3 Records\t",
+    "oxygenBedTotal": "",
+    "oxygenBedOccupied": "",
+    "oxygenBedAvailable": "\n20\n5",
+    "lastUpdatedDate": "ords\t\n1\n\tP",
+    "lastUpdatedTime": "e 1 of 1",
+    "district": "",
+    "state": "Madhyapradesh",
+    "googleSearch": "https://www.google.com/search?q=+Madhya+Pradesh&rlz=1C1CHBF_enIN859IN859&oq=+Madhya+Pradesh&aqs=chrome..69i57j46i10i175i199j0i10l7.11711j0j15&sourceid=chrome&ie=UTF-8"
+  }
+]
